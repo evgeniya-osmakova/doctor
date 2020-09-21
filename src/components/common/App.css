@@ -80,7 +80,7 @@ body {
 }
 
 .selected a {
-  color: purple;
+  color: #7067f5;
   margin-left: 10px;
 }
 
@@ -123,13 +123,12 @@ body {
   background: #7067f5;
   text-align: center;
   text-decoration: none;
-
-  border: 1px solid;
+  border: 1px solid transparent;
   border-radius: 10px;
   outline: none;
 }
 
 .btn:hover {
-  border-color: black;
+  border-color: white;
   cursor: pointer;
 }

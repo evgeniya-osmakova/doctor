@@ -17,7 +17,7 @@
   width: 95%;
 }
 
-.options :hover hr {
+.card:hover hr {
   color: #73cbfa;
 }
 
