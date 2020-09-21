@@ -5,7 +5,12 @@ import './App.css';
 import ProfileAppointments from '../profile/appointments/ProfileAppointments';
 import * as allActions from '../../actions';
 import ProfileMain from '../profile/main/ProfileMain';
-import avatar from '../../../avatar.png';
+import avatar from '../../../public/images/avatar.png';
+import notification from '../../../public/images/notification.png';
+import options from '../../../public/images/options.png';
+import photo from '../../../public/images/photo.png';
+import search from '../../../public/images/search.png';
+import watch from '../../../public/images/watch.png';
 
 function App() {
   const dispatch = useDispatch();
@@ -76,11 +81,11 @@ function App() {
         <div>Мой профиль</div>
         <nav>
           <ul className="horizontal_menu">
-            <li><a href="#"><img alt="img" src="https://i.ibb.co/PGS3zTD/watch.png" width="25" height="25" /></a></li>
-            <li><a href="#"><img alt="img" src="https://i.ibb.co/F76RnLY/watch.png" width="25" height="25" /></a></li>
-            <li><a href="#"><img alt="img" src="https://i.ibb.co/FYSnmxX/watch.png" width="25" height="25" /></a></li>
-            <li><a href="#"><img alt="img" src="https://i.ibb.co/XsycmZ0/2020-09-18-08-39-33.png" width="50" height="50" /></a></li>
-            <li><a href="#"><img alt="img" src="https://i.ibb.co/4MKb5nD/watch.png" width="25" height="25" /></a></li>
+            <li><a href="#"><img alt="img" src={search} width="25" height="25" /></a></li>
+            <li><a href="#"><img alt="img" src={notification} width="25" height="25" /></a></li>
+            <li><a href="#"><img alt="img" src={watch} width="25" height="25" /></a></li>
+            <li><a href="#"><img alt="img" src={photo} width="50" height="50" /></a></li>
+            <li><a href="#"><img alt="img" src={options} width="25" height="25" /></a></li>
           </ul>
         </nav>
       </header>

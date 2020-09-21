@@ -1,5 +1,9 @@
 import React from 'react';
 import './ProfileMain_Menu.css';
+import doctor2 from '../../../../public/images/doctor2.png';
+import analysis from '../../../../public/images/analysis.png';
+import updating from '../../../../public/images/updating.png';
+import doctor from '../../../../public/images/doctor.png';
 
 function ProfileMainMenu() {
   return (
@@ -8,7 +12,7 @@ function ProfileMainMenu() {
       <section className="options">
         <a href="#" className="card options_1">
           <div className="options__image">
-            <img alt="photo" src="../public/images/doctor2.png" width="100" height="100" />
+            <img alt="photo" src={doctor2} width="100" height="100" />
           </div>
           <div className="options__info">
             <h2>Информация о пациенте</h2>
@@ -22,7 +26,7 @@ function ProfileMainMenu() {
         </a>
         <a href="#" className="card options_2">
           <div className="options__image">
-            <img alt="photo" src="../public/images/analysis.png" width="100" height="100" />
+            <img alt="photo" src={analysis} width="100" height="100" />
           </div>
           <div className="options__info">
             <h2>Результаты анализов</h2>
@@ -32,7 +36,7 @@ function ProfileMainMenu() {
         </a>
         <a href="#" className="card options_3">
           <div className="options__image">
-            <img alt="photo" src="../public/images/updating.png" width="100" height="100" />
+            <img alt="photo" src={updating} width="100" height="100" />
           </div>
           <div className="options__info">
             <h2>Добавить информацию</h2>
@@ -42,7 +46,7 @@ function ProfileMainMenu() {
         </a>
         <a href="#" className="card options_4">
           <div className="options__image">
-            <img alt="photo" src="../public/images/doctor.png" width="100" height="100" />
+            <img alt="photo" src={doctor} width="100" height="100" />
           </div>
           <div className="options__info">
             <h2>История приёмов</h2>
