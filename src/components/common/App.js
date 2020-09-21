@@ -19,7 +19,7 @@ function App() {
   useEffect(() => {
     const appointmentsInfo = [
       {
-        date: new Date('11 September 2020 12:00 UTC'),
+        date: new Date('12 September 2020 12:00 UTC'),
         hospital: 'СПБ ГБУЗ "Городская поликлиника №25",',
         address: 'пр.Солидарностиб д. 1б к. 1б лит. А',
         doctor: 'Малушко Т.Н.',

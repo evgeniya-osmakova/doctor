@@ -17,13 +17,13 @@ function ProfileMainAppointments() {
       return (
         <div className="additionally_info">
           <div>Ещё {appointmentsCount - 2} записи</div>
-          <Link to="/appointments">Подробнее</Link>
+          <Link className="link" to="/appointments">Подробнее</Link>
         </div>
       );
     }
     return (
       <div className="additionally_info">
-        <Link to="/appointments">Подробнее</Link>
+        <Link className="link" to="/appointments">Подробнее</Link>
       </div>
     );
   };

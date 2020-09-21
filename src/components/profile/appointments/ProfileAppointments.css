@@ -14,9 +14,9 @@
 .appointments {
     grid-area: appointments;
     overflow: scroll;
+    padding-bottom: 10px;
 }
 
 .calendar {
     grid-area: calendar;
-    text-align: center;
 }

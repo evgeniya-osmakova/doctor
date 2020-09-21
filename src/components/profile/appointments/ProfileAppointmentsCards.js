@@ -20,7 +20,7 @@ function ProfileAppointmentsCards() {
   };
   return (
     <>
-      <Link className="sectionName" to="/">Мои записи</Link>
+      <Link className="sectionName link" to="/">Мои записи</Link>
       <section className="appointments">
         {renderAppointments()}
       </section>
