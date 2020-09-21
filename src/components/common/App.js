@@ -18,7 +18,7 @@ function App() {
         address: 'пр.Солидарностиб д. 1б к. 1б лит. А',
         doctor: 'Малушко Т.Н.',
         specialty: 'Хирургия',
-        ava: './public/images/avatar.png',
+        ava: '../public/images/avatar.png',
       },
       {
         date: new Date('12 September 2020 14:40 UTC'),
@@ -26,7 +26,7 @@ function App() {
         address: 'пр.Солидарностиб д. 1б к. 1б лит. А',
         doctor: 'Харьков В.С.',
         specialty: 'Терапевтическое отделение',
-        ava: './public/images/avatar.png',
+        ava: '../public/images/avatar.png',
       },
       {
         date: new Date('10 September 2020 11:30 UTC'),
@@ -34,7 +34,7 @@ function App() {
         address: 'пр.Солидарностиб д. 1б к. 1б лит. А',
         doctor: 'Малушко Т.Н.',
         specialty: 'хирургия',
-        ava: './public/images/avatar.png',
+        ava: '../public/images/avatar.png',
       },
       {
         date: new Date('15 September 2020 16:00 UTC'),
@@ -42,7 +42,7 @@ function App() {
         address: 'пр.Солидарностиб д. 1б к. 1б лит. А',
         doctor: 'Харьков В.С.',
         specialty: 'Терапевтическое отделение',
-        ava: './public/images/avatar.png',
+        ava: '../public/images/avatar.png',
       },
       {
         date: new Date('22 September 2020 19:10 UTC'),
@@ -50,7 +50,7 @@ function App() {
         address: 'пр.Солидарностиб д. 1б к. 1б лит. А',
         doctor: 'Малушко Т.Н.',
         specialty: 'хирургия',
-        ava: './public/images/avatar.png',
+        ava: '../public/images/avatar.png',
       },
     ];
     switch (status) {

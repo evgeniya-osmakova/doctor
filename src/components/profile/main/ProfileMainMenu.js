@@ -8,7 +8,7 @@ function ProfileMainMenu() {
       <section className="options">
         <a href="#" className="card options_1">
           <div className="options__image">
-            <img alt="photo" src="./public/images/doctor2.png" width="100" height="100" />
+            <img alt="photo" src="../public/images/doctor2.png" width="100" height="100" />
           </div>
           <div className="options__info">
             <h2>Информация о пациенте</h2>
@@ -22,7 +22,7 @@ function ProfileMainMenu() {
         </a>
         <a href="#" className="card options_2">
           <div className="options__image">
-            <img alt="photo" src="./public/images/analysis.png" width="100" height="100" />
+            <img alt="photo" src="../public/images/analysis.png" width="100" height="100" />
           </div>
           <div className="options__info">
             <h2>Результаты анализов</h2>
@@ -32,7 +32,7 @@ function ProfileMainMenu() {
         </a>
         <a href="#" className="card options_3">
           <div className="options__image">
-            <img alt="photo" src="./public/images/updating.png" width="100" height="100" />
+            <img alt="photo" src="../public/images/updating.png" width="100" height="100" />
           </div>
           <div className="options__info">
             <h2>Добавить информацию</h2>
@@ -42,7 +42,7 @@ function ProfileMainMenu() {
         </a>
         <a href="#" className="card options_4">
           <div className="options__image">
-            <img alt="photo" src="./public/images/doctor.png" width="100" height="100" />
+            <img alt="photo" src="../public/images/doctor.png" width="100" height="100" />
           </div>
           <div className="options__info">
             <h2>История приёмов</h2>
