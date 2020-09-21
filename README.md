@@ -1,1 +1,1 @@
-https://doctor-one.vercel.app/
+https://medical-card.vercel.app/
