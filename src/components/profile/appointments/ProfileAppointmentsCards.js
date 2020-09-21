@@ -9,16 +9,20 @@ import renderCard from '../renderCard';
 function ProfileAppointmentsCards() {
   const selectedAppointments = useSelector((state) => state.appointments.selectedAppointments);
   const appointments = useSelector((state) => state.appointments.allAppointments);
+  const renderAppointments = () => {
+    if (_.isEmpty(appointments)) {
+      return (<div>Текущих записей нет</div>);
+    }
+    if (_.isEmpty(selectedAppointments)) {
+      return renderCard(appointments, selectedAppointments.length);
+    }
+    return renderCard(selectedAppointments, selectedAppointments.length);
+  };
   return (
     <>
       <Link className="sectionName" to="/">Мои записи</Link>
       <section className="appointments">
-        {/* eslint-disable-next-line no-nested-ternary */}
-        {(_.isEmpty(appointments))
-          ? (<div>Текущих записей нет</div>)
-          : (_.isEmpty(selectedAppointments))
-            ? renderCard(appointments, selectedAppointments.length)
-            : renderCard(selectedAppointments, selectedAppointments.length)}
+        {renderAppointments}
       </section>
     </>
   );

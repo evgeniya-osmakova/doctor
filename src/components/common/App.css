@@ -12,8 +12,8 @@ body {
   grid-template-areas:
     "asideElements  header"
     "asideElements  main";
-  grid-template-rows: 5% 95%;
-  grid-template-columns: 10% 90%;
+  grid-template-rows: 50px auto;
+  grid-template-columns: 160px auto;
 }
 
 .asideElements {
@@ -28,7 +28,6 @@ body {
 }
 
 .header {
-  height: 50px;
   display: flex;
   grid-area: header;
   justify-content: space-between;
@@ -41,26 +40,25 @@ body {
 }
 
 .logo {
-  padding: 0 20px;
   height: 50px;
   grid-area: logo;
-  display: flex;
-  align-items: center;
-
+  display: block;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
   font-weight: bold;
   color: white;
   background: #153b6e;
 }
 
 .main {
+  max-height: 95vh;
   grid-area: main;
 }
 
 .sidebar {
   grid-area: sidebar;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  display: block;
   background: #153b6e;
   list-style: none;
   padding-left: 10px;
@@ -74,8 +72,6 @@ body {
 
 .selected {
   background-color: whitesmoke;
-  padding: 5px;
-  width: 100%;
   margin-left: -10px;
 }
 
@@ -113,12 +109,16 @@ body {
   text-decoration: none;
 }
 
+.sidebar_button {
+  padding-left: 10px;
+}
+
 .btn {
   align-self: center;
   margin-top: 20px;
   display: block;
-  max-width: 200px;
-  padding: 10px;
+  width: 120px;
+  padding: 8px;
   color: white;
   background: #7067f5;
   text-align: center;

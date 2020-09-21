@@ -97,7 +97,7 @@ function App() {
           <div><a href="#" className="sidebar_style">Сообщения</a></div>
           <div><a href="#" className="sidebar_style">Тестирование</a></div>
           <div><a href="#" className="sidebar_style">Полезно знать</a></div>
-          <div><button className="btn">Подать заявку</button></div>
+          <div className="sidebar_button"><button className="btn">Подать заявку</button></div>
         </aside>
         <footer className="footer">
           <a href="#">Помощь</a>
