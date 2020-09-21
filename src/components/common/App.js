@@ -5,6 +5,7 @@ import './App.css';
 import ProfileAppointments from '../profile/appointments/ProfileAppointments';
 import * as allActions from '../../actions';
 import ProfileMain from '../profile/main/ProfileMain';
+import avatar from '../../../avatar.png';
 
 function App() {
   const dispatch = useDispatch();
@@ -18,7 +19,7 @@ function App() {
         address: 'пр.Солидарностиб д. 1б к. 1б лит. А',
         doctor: 'Малушко Т.Н.',
         specialty: 'Хирургия',
-        ava: 'require(./avatar.png)',
+        ava: avatar,
       },
       {
         date: new Date('12 September 2020 14:40 UTC'),
@@ -26,7 +27,7 @@ function App() {
         address: 'пр.Солидарностиб д. 1б к. 1б лит. А',
         doctor: 'Харьков В.С.',
         specialty: 'Терапевтическое отделение',
-        ava: 'require(./avatar.png)',
+        ava: avatar,
       },
       {
         date: new Date('10 September 2020 11:30 UTC'),
@@ -34,7 +35,7 @@ function App() {
         address: 'пр.Солидарностиб д. 1б к. 1б лит. А',
         doctor: 'Малушко Т.Н.',
         specialty: 'хирургия',
-        ava: 'require(./avatar.png)',
+        ava: avatar,
       },
       {
         date: new Date('15 September 2020 16:00 UTC'),
@@ -42,7 +43,7 @@ function App() {
         address: 'пр.Солидарностиб д. 1б к. 1б лит. А',
         doctor: 'Харьков В.С.',
         specialty: 'Терапевтическое отделение',
-        ava: 'require(./avatar.png)',
+        ava: avatar,
       },
       {
         date: new Date('22 September 2020 19:10 UTC'),
@@ -50,7 +51,7 @@ function App() {
         address: 'пр.Солидарностиб д. 1б к. 1б лит. А',
         doctor: 'Малушко Т.Н.',
         specialty: 'хирургия',
-        ava: 'require(./avatar.png)',
+        ava: avatar,
       },
     ];
     switch (status) {
