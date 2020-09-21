@@ -1,34 +1,33 @@
 {
-  "name": "react_boilerplate",
+  "name": "medical_card",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evgeniya-osmakova/react_boilerplate.git"
+    "url": "git+https://github.com/evgeniya-osmakova/medical_card.git"
   },
   "bugs": {
-    "url": "https://github.com/evgeniya-osmakova/react_boilerplate/issues"
+    "url": "https://github.com/evgeniya-osmakova/medical_card/issues"
   },
-  "homepage": "https://github.com/evgeniya-osmakova/react_boilerplate#readme",
+  "homepage": "https://github.com/evgeniya-osmakova/medical_card#readme",
   "author": "Evgeniya Osmakova",
   "private": true,
   "keywords": [],
   "license": "ISC",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
   "dependencies": {
     "color-calendar": "^1.0.4",
     "lodash": "^4.17.20",
-    "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.1",
     "react-router-dom": "^5.2.0",
     "redux": "^4.0.5",
     "redux-actions": "^2.6.5"
-  },
-  "scripts": {
-    "start": "webpack-dev-server",
-    "build": "webpack"
   },
   "devDependencies": {
     "css-loader": "^4.3.0",
@@ -47,6 +46,7 @@
     "webpack-cli": "^3.3.12",
     "babel-eslint": "^10.1.0",
     "eslint-plugin-react-hooks": "^4.1.2",
-    "eslint-plugin-react": "^7.20.6"
+    "eslint-plugin-react": "^7.20.6",
+    "prop-types": "^15.7.2"
   }
 }

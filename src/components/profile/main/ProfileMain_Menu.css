@@ -18,9 +18,7 @@
 }
 
 .card:hover hr {
-  /*color: #73cbfa;*/
-  /*background-color: #73cbfa;*/
-  background: #73cbfa;
+  color: #73cbfa;
 }
 
 .card {
