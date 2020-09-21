@@ -32,7 +32,7 @@ function ProfileMainAppointments() {
       <div className="sectionName">Записи на приём</div>
       <section className="appointmentsPreview">
         {renderCard(appointments, 2)}
-        {renderAppointments}
+        {renderAppointments()}
       </section>
     </div>
   );
