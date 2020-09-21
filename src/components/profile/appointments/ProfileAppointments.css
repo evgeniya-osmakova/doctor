@@ -3,7 +3,8 @@
     gap: 20px;
     grid-template-areas:
         "sectionName sectionName"
-        "appointments calendar"
+        "appointments calendar";
+    grid-template-columns: 500px auto;
 }
 
 .sectionName {
@@ -17,4 +18,5 @@
 
 .calendar {
     grid-area: calendar;
+    text-align: center;
 }
