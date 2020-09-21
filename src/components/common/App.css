@@ -24,7 +24,7 @@ body {
     "logo"
     "sidebar"
     "footer";
-  grid-template-rows: 50px 90% 5%;
+  grid-template-rows: 50px auto 60px;
 }
 
 .header {
@@ -52,8 +52,9 @@ body {
 }
 
 .main {
-  max-height: 95vh;
   grid-area: main;
+  overflow: scroll;
+  max-height: 90vh;
 }
 
 .sidebar {

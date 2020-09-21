@@ -5,10 +5,7 @@
     "options_1 options_2"
     "options_3 options_4";
   justify-content: flex-start;
-  padding-left: 20px;
-  padding-right: 20px;
-  overflow: scroll;
-  max-height: 60vh;
+  padding: 20px;
 }
 
 .options a {
