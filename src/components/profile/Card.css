@@ -1,0 +1,69 @@
+.appointment_item {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid #d3d3d3;
+  padding: 10px;
+  display: grid;
+  grid-template-areas:
+    "data"
+    "hospital"
+    "address"
+    "cardFooter";
+  grid-template-columns: 400px;
+}
+
+.appointment_item__data {
+  grid-area: data;
+  font-weight: bold;
+}
+
+.appointment_item__hospital {
+  grid-area: hospital;
+}
+
+.appointment_item__address {
+  grid-area: address;
+}
+
+.appointment_item__cardFooter {
+  grid-area: cardFooter;
+  display: grid;
+  grid-template-areas:
+    "photo name ."
+    "photo specialty button";
+  grid-template-columns: 30% 40% 30%;
+}
+
+.cardFooter__photo {
+  grid-area: photo;
+}
+
+.cardFooter__name {
+  grid-area: name;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 0;
+  justify-content: left;
+}
+
+.cardFooter__specialty {
+  grid-area: specialty;
+  font-weight: lighter;
+  color: lightgrey;
+}
+
+.cardFooter__btn {
+  grid-area: button;
+}
+
+.additionally_info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sectionName {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+}

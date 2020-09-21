@@ -1,0 +1,135 @@
+body {
+  margin: 0 auto;
+
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background: whitesmoke;
+}
+
+.app {
+  display: grid;
+  grid-template-areas:
+    "asideElements  header"
+    "asideElements  main";
+  grid-template-rows: 5% 95%;
+  grid-template-columns: 10% 90%;
+}
+
+.asideElements {
+  grid-area: asideElements;
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+    "logo"
+    "sidebar"
+    "footer";
+  grid-template-rows: 50px 90% 5%;
+}
+
+.header {
+  height: 50px;
+  display: flex;
+  grid-area: header;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  background: #73cbfa;
+}
+
+.logo {
+  padding: 0 20px;
+  height: 50px;
+  grid-area: logo;
+  display: flex;
+  align-items: center;
+
+  font-weight: bold;
+  color: white;
+  background: #153b6e;
+}
+
+.main {
+  grid-area: main;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #153b6e;
+  list-style: none;
+  padding-left: 10px;
+}
+
+.sidebar a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.selected {
+  background-color: whitesmoke;
+  padding: 5px;
+  width: 100%;
+  margin-left: -10px;
+}
+
+.selected a {
+  color: purple;
+  margin-left: 10px;
+}
+
+.footer {
+  padding: 0 20px;
+  grid-area: footer;
+  background: #153b6e;
+}
+
+.footer a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.horizontal_menu {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+}
+
+.horizontal_menu li {
+  padding: 0 10px;
+}
+
+.horizontal_menu a {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn {
+  align-self: center;
+  margin-top: 20px;
+  display: block;
+  max-width: 200px;
+  padding: 10px;
+  color: white;
+  background: #7067f5;
+  text-align: center;
+  text-decoration: none;
+
+  border: 1px solid;
+  border-radius: 10px;
+  outline: none;
+}
+
+.btn:hover {
+  border-color: black;
+  cursor: pointer;
+}

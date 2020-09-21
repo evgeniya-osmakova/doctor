@@ -1,0 +1,68 @@
+.options {
+  display: grid;
+  gap: 20px;
+  grid-template-areas:
+    "options_1 options_2"
+    "options_3 options_4";
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.options a {
+  text-decoration: none;
+  color: black;
+}
+
+.options hr {
+  width: 95%;
+}
+
+.options :hover hr {
+  color: #73cbfa;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 2px solid #d3d3d3;
+  display: grid;
+  grid-template-areas: "img info";
+  justify-content: space-between;
+  grid-template-columns: 20% 80%;
+}
+
+.options__image {
+  grid-area: img;
+  background: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.options__info {
+  padding-left: 20px;
+  grid-area: info;
+  word-wrap: break-word;
+}
+
+.options__info li {
+  list-style-type: none;
+}
+
+.options__info li:before {
+  color: black;
+  content: "• ";
+  padding-right: 10px;
+}
+
+.card:hover .options__info li:before {
+  color: #73cbfa;
+}
+
+.card:hover .options__image {
+  background: #73cbfa;
+}
+
+.card:hover {
+  border-width: 2px;
+  border-color: #73cbfa;
+}

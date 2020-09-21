@@ -1,0 +1,14 @@
+.mainPage {
+    display: grid;
+    grid-template-areas:
+        "mainAppointments"
+        "mainMenu";
+}
+
+.mainMenu {
+    grid-area: mainMenu;
+}
+
+.mainAppointments {
+    grid-area: mainAppointments;
+}
